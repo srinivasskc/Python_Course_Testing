@@ -17,13 +17,6 @@ print("Hi")
 print(5, end=' ')
 print(6, end='')
 
-# Print the information to File. "srinivas.txt"
-# fp is file pointer
-
-fp = open("srinivas.txt", 'w', encoding="locale")
-
-print(1,2, file=fp)
-
 # Flush
 print("Hello - This is flush - false", flush=False)
 print('Official repository of "SAMURAI: Adapting Segment Anything Model for Zero-Shot Visual Tracking with Motion-Aware Memory"',flush=False)
