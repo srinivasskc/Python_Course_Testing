@@ -13,4 +13,3 @@ I love Python
 input1 = input('Enter the greeting text: ')
 input2 = input('Enter the name of person: ')
 print(input1 + ' ' + input2)
-
