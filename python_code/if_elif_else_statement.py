@@ -19,9 +19,8 @@ total_cost = float(input("Enter the total cost of items shopped by " + customer_
 
 print("Cost of all items: ",total_cost)
 
-if total_cost >=0 and total_cost < 100:
-    discount = 0
-elif total_cost > 100 and total_cost <= 199.99:
+
+if total_cost > 100 and total_cost <= 199.99:
     discount = 5
 elif total_cost >= 200 and total_cost <= 299.99:
     discount = 10
