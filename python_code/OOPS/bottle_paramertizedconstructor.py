@@ -16,6 +16,12 @@ class Bottle:
         self.rate=rate
         print('Constructor is called')
 
+    def get_bottle_info(self):
+        '''
+        This is get_bottle_info method.
+        '''
+        return 'Bottle Color: ' + self.color + '\n' + 'Bottle Capacity: ' + str(self.capacity) + '\n' + 'Bottle Height: ' + str(self.height) + '\n' + 'Bottle Rate: ' + str(self.rate)
+    
 
     # Behaviors / Methods
     def wash(self):
@@ -62,10 +68,7 @@ print("\n")
 
 bottle2 = Bottle("blue",2,20,40)
 print("Bottle 2 Memory Location: ", bottle2)
-print(bottle2.color)
-print(bottle2.capacity)
-print(bottle2.height)
-print(bottle2.rate)
+print(bottle2.color, bottle2.capacity, bottle2.height, bottle2.rate, sep="\n")
 
 print("\n")
 
@@ -81,7 +84,6 @@ print("\n")
 
 
 print("Calling Bottle 1 Methods")
-
 bottle1.wash()
 bottle1.set_cap()
 bottle1.fill()
@@ -103,3 +105,11 @@ bottle3.set_cap()
 bottle3.fill()
 bottle3.close()
 
+
+print("\n")
+# Calling method using Instance Variable.
+print(bottle1.get_bottle_info())
+
+print("\n")
+# Calling method using Class Name.
+print(Bottle.get_bottle_info(bottle2))
