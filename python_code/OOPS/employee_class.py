@@ -1,33 +1,54 @@
-'''
-Creating a Class.
-Class will allow to create our own data types using a class.
-Built In Data Types: Int, Float, Str, Bool, list.
-
-This is a placeholder class. 
-Class Name starts with Capital Letter and with Colon
-If we want to create a class with empty, we write "pass"
-
-Student() is the object of Student Class.
-Both Names should be same.
-student1 and student2 are instance variables assigned with Student object.
-'''
-
-class Student:
+class Employee:
     '''
-    This is student's class information
+    Employee Information
     '''
-    pass
 
+    # Static Variable
+    bonus=10000
 
+    def __init__(self,name,age,salary):
+        '''
+        This is a Parameterized Constructor.
+        '''
+        # Instance Variables
+        self.name=name
+        self.age=age
+        self.salary=salary
 
+    def get_employee_info(self):
+        '''
+        This is get_employee_info method.
+        '''
+        return 'Employee Name: ' + self.name + '\n' + 'Employee Age: ' + str(self.age) + '\n' + 'Employee Salary: ' + str(self.salary)
+    
 
-student1 = Student()
-student2 = Student()
+    def add_bonus_to_salary(self):
+        '''
+        This is add_bonus_to_salary method.
+        '''
+        salary_bonus=int(self.salary+Employee.bonus)
+        return 'Employee Name: ' + self.name + '\n' + 'Employee Salary with Bonus: ' + str(salary_bonus) + '\n'
+    
+    
 
-print(student1)
-print(student2)
+emp1 = Employee('John',25,25000)
+emp2 = Employee('Smith',30,30000)
 
-# This prints the memory location of student1 and student2
-print(isinstance(student1,Student))
-print(isinstance(student2,Student))
+# Accessing the class variables.
+print("Employee Bonus: ",Employee.bonus)
+Employee.bonus=20000  # Changing the class variable value of bonus
+print("Employee1 details with bonus: ",emp1.name,emp1.salary,emp1.bonus)
+print("Employee2 details with bonus: ",emp2.name,emp2.salary,emp2.bonus)
 
+# Dictionary: empl1 and empl2.
+print("Employee 1 Dictionary: ",emp1.__dict__)
+print("Employee 2 Dictionary: ",emp2.__dict__)
+
+emp1.add_bonus_to_salary()
+
+# Bonus values for emp1 and emp2 are coming from class variable. And we can change for emp2 as well.
+emp2.bonus=30000
+print("After bonus updated to emp2: ",emp2.name,emp2.salary,emp2.bonus)
+print("Employee 2 Dictionary: ",emp2.__dict__)
+
+emp2.add_bonus_to_salary()
