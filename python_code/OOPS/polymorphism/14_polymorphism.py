@@ -2,6 +2,9 @@
 # Python does not support Method Overloading
 # Python -> Class -> Two Methods with same name but different Parameters is not supported.
 
+# Polymorphism: is related to Inheritance.
+
+
 # Method Overriding: 
 # Calling the same method name in Parent and Child Class.
 # Output: Child Class return data will override Parent Class.

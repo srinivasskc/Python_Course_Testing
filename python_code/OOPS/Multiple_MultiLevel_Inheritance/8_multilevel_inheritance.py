@@ -1,5 +1,7 @@
 # Multi Level Inheritance
 
+# Child Class 2 Inherits from Child Class 1 and Child Class 1 inherits from Parent Class
+
 class Class1:
     '''
     This is Class 1

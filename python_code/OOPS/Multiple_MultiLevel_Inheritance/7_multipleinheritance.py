@@ -1,5 +1,8 @@
 # Multiple Inheritance
 
+# Child Class Inheritance from Parent Class 1 and Parent Class 2
+
+
 class Class1:
     '''
     This is Class 1
