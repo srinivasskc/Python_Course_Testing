@@ -108,5 +108,15 @@ Contributions are welcome! To contribute:
    ```
 5. Submit a pull request. -->
 
+
+## Execute Python Code
+
+To run the Python package, use the following command:
+```bash
+python -m vehicle_import_packages.app
+```
+
+
+
 ## License
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
