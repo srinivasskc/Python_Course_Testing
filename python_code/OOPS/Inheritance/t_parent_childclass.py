@@ -65,5 +65,3 @@ print(dev_emp1.get_employee_info())
 print(dev_emp2.get_employee_info())
 print(dev_emp1.bonus_to_employee())
 print(dev_emp2.bonus_to_employee())
-
-
