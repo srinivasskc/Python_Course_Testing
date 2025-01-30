@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Complete Python Course",
+        "completed": false
+    },
+    {
+        "title": "Review Project Requirements",
+        "completed": true
+    },
+    {
+        "title": "Debug JSON Handling",
+        "completed": false
+    },
+    {
+        "title": "Debug JSON Handling",
+        "completed": false
+    },
+    {
+        "title": "Debug JSON Handling",
+        "completed": false
+    }
+]

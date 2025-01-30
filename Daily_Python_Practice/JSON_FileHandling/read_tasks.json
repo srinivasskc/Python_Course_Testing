@@ -1,0 +1,10 @@
+[
+    {
+        "title": "Learn JSON",
+        "completed": false
+    },
+    {
+        "title": "Build a Todo App",
+        "completed": true
+    }
+]
