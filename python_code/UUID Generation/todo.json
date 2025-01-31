@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "title": "Complete Python Course",
+        "completed": false
+    },
+    {
+        "id": 2,
+        "title": "Review Project Requirements",
+        "completed": true
+    },
+    {
+        "id": 3,
+        "title": "Debug JSON Handling",
+        "completed": false
+    },
+    {
+        "title": "Generate UUID from a function again",
+        "Status": true,
+        "id": "64eddd048c57463799d9fbe9c06d0c6b"
+    }
+]
