@@ -1,0 +1,27 @@
+INFO:root:Start of Logging Exceptions
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "f:\Career\udemy-course\python_course_testing\python_code\Logging\logging_exceptions.py", line 15, in <module>
+    print(x/y)
+          ~^~
+ZeroDivisionError: division by zero
+INFO:root:End of Logging Exceptions
+INFO:root:Start of Logging Exceptions
+INFO:root:Start of Logging Exceptions
+ERROR:root:invalid literal for int() with base 10: ''
+Traceback (most recent call last):
+  File "f:\Career\udemy-course\python_course_testing\python_code\Logging\logging_exceptions.py", line 13, in <module>
+    y = int(input("Enter 2nd number: "))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: ''
+INFO:root:End of Logging Exceptions
+INFO:root:Start of Logging Exceptions
+INFO:root:End of Logging Exceptions
+INFO:root:Start of Logging Exceptions
+ERROR:root:division by zero
+Traceback (most recent call last):
+  File "f:\Career\udemy-course\python_course_testing\python_code\Logging\logging_exceptions.py", line 15, in <module>
+    print(x/y)
+          ~^~
+ZeroDivisionError: division by zero
+INFO:root:End of Logging Exceptions

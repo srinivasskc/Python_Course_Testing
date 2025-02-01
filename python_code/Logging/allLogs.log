@@ -1,0 +1,7 @@
+2025-02-01 07:04:41,776 - INFO - This is info log level message
+2025-02-01 07:04:41,776 - DEBUG - This is debug log level message
+2025-02-01 07:04:41,777 - WARNING - This is warning log level message
+2025-02-01 07:04:41,777 - ERROR - This is error log level message
+2025-02-01 07:04:41,778 - CRITICAL - This is critical log level message
+2025-02-01 07:04:41,778 - ERROR - This is exception log level message
+NoneType: None
