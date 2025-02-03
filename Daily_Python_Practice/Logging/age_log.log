@@ -1,0 +1,5 @@
+2025-02-02 08:11:21,145 - WARNING - Age cannot be negative
+2025-02-02 08:11:21,146 - INFO - You have entered valid age: 15
+2025-02-02 08:11:21,146 - INFO - You have entered valid age: 18
+2025-02-02 08:11:21,147 - ERROR - You have entered invalid age input literal
+2025-02-02 08:11:21,147 - INFO - You have entered valid age: 5

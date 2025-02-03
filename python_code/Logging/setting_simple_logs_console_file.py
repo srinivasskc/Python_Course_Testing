@@ -15,7 +15,7 @@ def setup_logging():
         level=logging.DEBUG,
         handlers=[
             logging.FileHandler("F:/Career/udemy-course/python_course_testing/python_code/Logging/allLogs.log"),
-            logging.StreamHandler() 
+            logging.StreamHandler()
         ]
     )
 

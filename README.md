@@ -116,6 +116,12 @@ To run the Python package, use the following command:
 python -m vehicle_import_packages.app
 ```
 
+To know more about any module i.e logging, use the following command in Python Interactive Shell:
+```bash
+import logging
+help(logging)
+```
+
 
 
 ## License
