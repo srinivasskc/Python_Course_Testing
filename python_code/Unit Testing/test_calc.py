@@ -55,9 +55,18 @@ class TestCalc(unittest.TestCase):
         """
         Test Case for Division
         """
-        result = calc.div(10,5)
-        self.assertEqual(result,2)
+        result = calc.div(10,2)
+        self.assertEqual(result,5)
 
+        self.assertEqual(calc.div(-2,2),-1)
+        self.assertEqual(calc.div(10,2),5)
+
+        # This is special method for exception check
+        self.assertRaises(ZeroDivisionError,calc.div,10,0)
+        
+        # Context Manager way of method
+        with self.assertRaises(ZeroDivisionError):
+            calc.div(10,0)
     
     def test_mod(self):
         """
@@ -66,6 +75,11 @@ class TestCalc(unittest.TestCase):
         result = calc.mod(10,5)
         self.assertEqual(result,0)
 
+    def test_floordiv(self):
+        """
+        Test Case for Floor Division
+        """
+        self.assertEqual(calc.floor_div(5,2),2.5)
 
 # Loads the test cases from test class using Test Loader to Suite.
 suite = unittest.TestLoader().loadTestsFromTestCase(TestCalc)

@@ -25,6 +25,8 @@ def div(a,b):
     """
     This is division function
     """
+    if b ==0:
+        raise ZeroDivisionError("Cannot Divide by zero")
     return a/b
 
 def mod(a,b):
@@ -33,4 +35,14 @@ def mod(a,b):
     """
     return a%b
 
+def floor_div(a,b):
+    """
+    This is floor division function means no decimal.
+    """
+    if b ==0:
+        raise ZeroDivisionError("Cannot Divide by zero")
+    return a//b
+
+
 print(add(10,20))
+# print(div(5,0))
