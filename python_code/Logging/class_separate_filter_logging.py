@@ -30,8 +30,10 @@ def setup_logging():
     
     # Custom Logger.
     logger = logging.getLogger()
+    breakpoint()
     # Returns <RootLogger root (WARNING)>.
-    logger.setLevel(logging.DEBUG)
+    # logger.setLevel(logging.DEBUG)
+    # print(logger)
     # Returns <RootLogger root (DEBUG)>
 
     # Define Log Format

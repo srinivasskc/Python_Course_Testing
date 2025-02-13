@@ -25,7 +25,7 @@ class TestCalc(unittest.TestCase):
         self.assertEqual(calc.add(-2,2),0)
         
     
-    def test_add(self):
+    def test_addition(self):
         """
         Test Case for Addition
         """
