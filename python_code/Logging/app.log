@@ -1,2 +1,9 @@
 2025-02-01 05:51:35,025 - INFO  - Adding 5 and 6 gives 11
 2025-02-01 05:52:17,630 - INFO  - Adding 5 and 6 gives 11
+2025-02-22 13:09:17,351 - INFO  - Adding 5 and 6 gives 11
+2025-04-15 10:50:02,209 - INFO  - Successfully loaded todos from ../data/todo.json
+2025-04-15 10:50:02,211 - INFO  - Successfully loaded todos from ../data/todo.json
+2025-04-15 10:50:02,211 - INFO  - Found todo with ID 1101adb6fb8642209a5ab8cdb17b2231
+2025-04-15 10:50:13,919 - INFO  - Successfully loaded todos from ../data/todo.json
+2025-04-15 10:50:13,921 - INFO  - Successfully loaded todos from ../data/todo.json
+2025-04-15 10:50:13,921 - INFO  - Found todo with ID 1101adb6fb8642209a5ab8cdb17b2231
