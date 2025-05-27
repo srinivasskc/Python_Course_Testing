@@ -1,3 +1,11 @@
+"""
+# Tuples are immutable, create a collection of items that cannot be changed.
+# Attempting to change an element in a tuple will raise an error.
+# In Test Automation, we used to store selenium locators in tuples.
+#  we often use tuples to store fixed data that should not change.
+"""
+
+
 # Empty lists and tuples
 empty_list = []
 empty_tuple = ()
@@ -56,13 +64,7 @@ print(banana_count)
 banana_index = my_list.index("Banana")
 print(banana_index)
 
-"""
-# Tuples are immutable, create a collection of items that cannot be changed.
-# Attempting to change an element in a tuple will raise an error.
 
-# In Test Automation, we used to store selenium locators in tuples.
-#  we often use tuples to store fixed data that should not change.
-"""
 
 empty_tuple = ()
 print(empty_tuple)
