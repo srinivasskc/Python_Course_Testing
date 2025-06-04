@@ -91,9 +91,9 @@ def calculate(a, b):
     Calculate the sum and product of two numbers
     """
     sum_result = a + b
-    multiply_result = a * b
+    mul_result = a * b
     difference_result = a - b
-    return sum_result, multiply_result, difference_result
+    return sum_result, mul_result, difference_result
 
 result_sum, result_mul, result_diff = calculate(5, 3)
 print(f"Sum: {result_sum}, Product: {result_mul}, Difference: {result_diff}")
